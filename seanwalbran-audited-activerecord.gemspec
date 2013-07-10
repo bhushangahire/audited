@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'seanwalbran-audited-activerecord'
-  gem.version = '3.0.1'
+  gem.version = '3.0.2'
 
   gem.authors     = ['Brandon Keepers', 'Kenneth Kalmer', 'Daniel Morrison', 'Brian Ryckbost', 'Steve Richert', 'Ryan Glover']
   gem.email       = 'info@collectiveidea.com'
-  gem.description = 'Log all changes to your ActiveRecord models.  Differs from 3.0 only in allowing rails4 dependency and lambda scopes.'
+  gem.description = 'Log all changes to your ActiveRecord models.  Differs from 3.0 in allowing rails4 in dependencies and fixing some rails4 deprecations.'
   gem.summary     = gem.description
   gem.homepage    = 'https://github.com/collectiveidea/audited'
 
